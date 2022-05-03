@@ -1,6 +1,5 @@
 import numpy as np 
 import pandas as pd
-import matplotlib.pyplot as plt
 forecast = pd.read_json("https://raw.githubusercontent.com/giovanniardenghi/dpc-covid-data/main/SUIHTER/MCMC_forecasts/Controlled_5.json")
 forecastL = pd.read_json("https://raw.githubusercontent.com/giovanniardenghi/dpc-covid-data/main/SUIHTER/MCMC_forecasts/Controlled_025.json")
 forecastU = pd.read_json("https://raw.githubusercontent.com/giovanniardenghi/dpc-covid-data/main/SUIHTER/MCMC_forecasts/Controlled_975.json")
