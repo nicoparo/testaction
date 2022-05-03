@@ -1,11 +1,8 @@
-# This workflow will install Python dependencies, run tests and lint with a single version of Python
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
-
 name: Python application
 
 on:
-        #schedule:
-        #- cron: '*/1 * * * *' # runs at 12:00 UTC everyday
+  schedule:
+     - cron: '0 4 * * *' # runs at 4:00 UTC everyday
   workflow_dispatch:
 
 jobs:
