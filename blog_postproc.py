@@ -31,6 +31,7 @@ for i in range(5):
                           'Next week 0.975': int(forecastU[comp[i]].iloc[1:8].mean())}, ignore_index=True)
     #print(comp[i],int(data[comp2[i]].iloc[-7:].mean()),int(forecast[comp[i]].iloc[1:8].mean()),int(forecastL[comp[i]].iloc[1:8].mean()),int(forecastU[comp[i]].iloc[1:8].mean()))
 
+table = table.append({'Compartment': '3 Maggio 2022'},ignore_index=True) 
 
 table.to_csv('data.csv')
 
