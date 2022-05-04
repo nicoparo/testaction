@@ -1,6 +1,7 @@
 import numpy as np 
 import pandas as pd
 from datetime import date
+import locale
 forecast = pd.read_json("https://raw.githubusercontent.com/giovanniardenghi/dpc-covid-data/main/SUIHTER/MCMC_forecasts/Controlled_5.json")
 forecastL = pd.read_json("https://raw.githubusercontent.com/giovanniardenghi/dpc-covid-data/main/SUIHTER/MCMC_forecasts/Controlled_025.json")
 forecastU = pd.read_json("https://raw.githubusercontent.com/giovanniardenghi/dpc-covid-data/main/SUIHTER/MCMC_forecasts/Controlled_975.json")
@@ -31,6 +32,8 @@ for i in range(5):
                           'Next week 0.025': int(forecastL[comp[i]].iloc[1:8].mean()),
                           'Next week 0.975': int(forecastU[comp[i]].iloc[1:8].mean())}, ignore_index=True)
     #print(comp[i],int(data[comp2[i]].iloc[-7:].mean()),int(forecast[comp[i]].iloc[1:8].mean()),int(forecastL[comp[i]].iloc[1:8].mean()),int(forecastU[comp[i]].iloc[1:8].mean()))
+
+locale.setlocale(locale.LC_ALL,'it_IT.UTF-8')
 
 table = table.append({'Compartment': date.today().strftime('%-d %B %Y')},ignore_index=True) 
 
