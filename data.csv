@@ -1,6 +1,6 @@
 ,Compartment,Past week,Next week,trend,Next week 0.025,Next week 0.975
-0,Casi giornalieri,55904,48798,&darr;,43903,54980
-1,Positivi,1228101,1186873,&darr;,1168948,1206589
-2,Ricoverati in reparti ordinari,9889,9501,&darr;,9286,9707
-3,Ricoverati in terapia intensiva,373,364,&darr;,336,384
-4,Deceduti giornalieri,137,127,&darr;,115,141
+0,Casi giornalieri,55904,48798,&dArr;,43903,54980
+1,Positivi,1228101,1186873,&dArr;,1168948,1206589
+2,Ricoverati in reparti ordinari,9889,9501,&dArr;,9286,9707
+3,Ricoverati in terapia intensiva,373,364,&dArr;,336,384
+4,Deceduti giornalieri,137,127,&dArr;,115,141
