@@ -1,6 +1,6 @@
 import numpy as np 
 import pandas as pd
-from datetime import date
+from datetime import date, timedelta
 import locale
 forecast = pd.read_json("https://raw.githubusercontent.com/giovanniardenghi/dpc-covid-data/main/SUIHTER/MCMC_forecasts/Controlled_5.json")
 forecastL = pd.read_json("https://raw.githubusercontent.com/giovanniardenghi/dpc-covid-data/main/SUIHTER/MCMC_forecasts/Controlled_025.json")
@@ -35,7 +35,9 @@ for i in range(5):
 
 locale.setlocale(locale.LC_ALL,'it_IT.UTF-8')
 
-table = table.append({'Compartment': date.today().strftime('%-d %B %Y')},ignore_index=True) 
+yesterday = date.today() - timedelta(days=1)
+
+table = table.append({'Compartment': yesterday.strftime('%-d %B %Y')},ignore_index=True) 
 
 table.to_csv('data.csv')
 
