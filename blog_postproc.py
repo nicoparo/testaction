@@ -20,9 +20,9 @@ for i in range(5):
 #    print(data[comp2[i]].iloc[-7:])
 #    print(forecast[comp[i]].iloc[1:8])
     if int(forecast[comp[i]].iloc[1:8].mean()) > int(data[comp2[i]].iloc[-7:].mean()):
-        trend = '&uarr;'
+        trend = '&uArr;'
     else:
-        trend = '&darr;'
+        trend = '&dArr;'
     table = table.append({'Compartment': label[i], 
                           'Past week': int(data[comp2[i]].iloc[-7:].mean()),
                           'Next week': int(forecast[comp[i]].iloc[1:8].mean()),
