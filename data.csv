@@ -1,7 +1,7 @@
 ,Compartment,Past week,Next week,trend,Next week 0.025,Next week 0.975
-0,Casi giornalieri,63773,96352,&uArr;,90410,103317
-1,Positivi,763914,1019009,&uArr;,966183,1066627
-2,Ricoverati in reparti ordinari,5833,7266,&uArr;,6978,7530
-3,Ricoverati in terapia intensiva,236,292,&uArr;,270,311
-4,Deceduti giornalieri,55,74,&uArr;,64,86
-5,30 giugno 2022,,,,,
+0,Casi giornalieri,68131,107476,&uArr;,97690,118282
+1,Positivi,799746,1085377,&uArr;,1031958,1144489
+2,Ricoverati in reparti ordinari,6065,7556,&uArr;,7281,7865
+3,Ricoverati in terapia intensiva,242,306,&uArr;,280,330
+4,Deceduti giornalieri,58,78,&uArr;,66,90
+5,1 luglio 2022,,,,,
