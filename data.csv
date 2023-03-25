@@ -1,7 +1,7 @@
 ,Compartment,Past week,Next week,trend,Next week 0.025,Next week 0.975
-0,Casi giornalieri,3390,20545,&uArr;,18632,22429
-1,Positivi,142311,396686,&uArr;,388184,405676
-2,Ricoverati in reparti ordinari,2842,6220,&uArr;,6018,6438
-3,Ricoverati in terapia intensiva,96,226,&uArr;,210,241
-4,Deceduti giornalieri,30,69,&uArr;,63,76
-5,23 marzo 2023,,,,,
+0,Casi giornalieri,3179,20545,&uArr;,18632,22429
+1,Positivi,140588,396686,&uArr;,388184,405676
+2,Ricoverati in reparti ordinari,2624,6220,&uArr;,6018,6438
+3,Ricoverati in terapia intensiva,105,226,&uArr;,210,241
+4,Deceduti giornalieri,26,69,&uArr;,63,76
+5,24 marzo 2023,,,,,
